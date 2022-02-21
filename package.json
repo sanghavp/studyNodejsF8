@@ -1,0 +1,31 @@
+{
+  "name": "nodejs-f8",
+  "version": "1.0.0",
+  "description": "study NodeJS F8",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "nodemon src/app",
+    "scss": "node-sass --watch ./src/resources/scss/ --output ./src/resources/public/css/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanghavp/studyNodejsF8.git"
+  },
+  "author": "Sang Ha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanghavp/studyNodejsF8/issues"
+  },
+  "homepage": "https://github.com/sanghavp/studyNodejsF8#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "express-handlebars": "^6.0.2",
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15",
+    "sass": "^1.49.8"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0"
+  }
+}
